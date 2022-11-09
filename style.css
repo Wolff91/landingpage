@@ -97,8 +97,45 @@ img {
 .quotetext {
     font-size: 36px;
     margin: 100px;
+    max-width: 800px;
+    opacity: 0.6;
 }
 
+.signuptext {
+    background-color: #3883f6;
+    border-radius: 10px;
+  }
+
+  .signuptext strong {
+    color: white;
+    font-size: 24px;
+  }
+  .signuptext p {
+    color: white;
+    font-size: 16px;
+  }
+
+.signuptext {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.signup {
+    display: flex;
+}
+
+.signup div .signuptext {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    margin: 50px;
+}
 a {
     text-decoration: none;
     color: #E5E7EB;
